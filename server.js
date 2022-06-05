@@ -52,6 +52,6 @@ app.get("/random-phrase", (req, res) => {
   res.json(phrases[randomPhrase]);
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`The server is running on port ${PORT}`);
 });
