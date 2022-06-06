@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
+// cors allows local servers to get the API data
+const cors = require('cors');
 const PORT = 3000;
+
+app.use(cors());
 
 const phrases = {
   1: {
@@ -35,7 +39,8 @@ const phrases = {
   },
   6: {
     phrase: "Go down the rabbit hole",
-    meaning: "To enter a strange situation, especially if it gets stranger as it unfolds.",
+    meaning:
+      "To enter a strange situation, especially if it gets stranger as it unfolds.",
     example:
       "Just a flat tyre but I totally went down the rabbit hole before I finally got it fixed.",
   },
