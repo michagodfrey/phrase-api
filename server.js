@@ -29,13 +29,13 @@ const phrases = {
     phrase: "Fish out of water",
     meaning: "To be out of one's usual environment or expertise.",
     example:
-      "The practical exam didn't go very well, I felt like a fish out of water",
+      "The practical exam didn't go very well, I felt like a fish out of water.",
   },
   5: {
     phrase: "Bull in a china shop",
     meaning: "Clumsy, causing damage with unthinking behaviour",
     example:
-      "Don't let Darren near your Christmas lights display, he's like a bull in a china shop",
+      "Don't let Darren near the kids' sand castle, he's like a bull in a china shop.",
   },
   6: {
     phrase: "Go down the rabbit hole",
@@ -44,6 +44,36 @@ const phrases = {
     example:
       "Just a flat tyre but I totally went down the rabbit hole before I finally got it fixed.",
   },
+  7: {
+    phrase: "Elephant in the room",
+    meaning: "Something very important that everone is ignoring or afraid to talk about.",
+    example: "His drinking problem was the elephant in the room; everyone was afraid to talk about it",
+  },
+  8: {
+    phrase: "Sitting ducks",
+    meaning: "Easy targets, vulnerable",
+    example: "We have no defences here, if the enemy attack we'll be sitting ducks."
+  },
+  9: {
+    phrase: "Until the cows come home",
+    meaning: "Something that won't happen or finish for a long time",
+    example: "This is taking forever, we'll be here until the cows come home."
+  },
+  10: {
+    phrase: "Straight from the horse's mouth",
+    meaning: "Information directly from the someone with experience or authority.",
+    example: "I wouldn't have believed it but this was straight from the horse's mouth."
+  },
+  11: {
+    phrase: "Have bigger fish to fry",
+    meaning: "To have more important things to do.",
+    example: "Don't worry about the replying yet, you have bigger fish to fry."
+  },
+  12: {
+    phrase: "Let the cat out of the bag",
+    meaning: "To reveal a secret",
+    example: "It was supposed to be a secret but someone let the cat out of the bag."
+  }
 };
 
 app.get("/", (req, res) => {
