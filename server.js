@@ -11,7 +11,7 @@ const phrases = {
     phrase: "Raining cats and dogs",
     meaning: "To be raining heavily",
     example:
-      "Looks like it's raining cats and dogs outside, let's get a taxi today.",
+      "I don't think we should do the picnic tomorrow, the weather report says it will be raining cats and dogs.",
   },
   2: {
     phrase: "Mad as cut snakes",
@@ -23,7 +23,7 @@ const phrases = {
     phrase: "Have the lion's share",
     meaning: "To get the largest amount of something",
     example:
-      "Sarah got the lion's share of the credit for the project but I think other managers did just as well.",
+      "Sarah got the lion's share of the credit for the project but I think other managers did just as much.",
   },
   4: {
     phrase: "Fish out of water",
@@ -35,14 +35,14 @@ const phrases = {
     phrase: "Bull in a china shop",
     meaning: "Clumsy, causing damage with unthinking behaviour",
     example:
-      "Don't let Darren near the kids' sand castle, he's like a bull in a china shop.",
+      "I wouldn't trust Darren to rearrange the furniture, he's like a bull in a china shop.",
   },
   6: {
     phrase: "Go down the rabbit hole",
     meaning:
       "To enter a strange situation, especially if it gets stranger as it unfolds.",
     example:
-      "Just a flat tyre but I totally went down the rabbit hole before I finally got it fixed.",
+      "It was simply a flat tyre, but I went down the rabbit hole before it finally got fixed.",
   },
   7: {
     phrase: "Elephant in the room",
@@ -52,12 +52,12 @@ const phrases = {
   8: {
     phrase: "Sitting ducks",
     meaning: "Easy targets, vulnerable",
-    example: "We have no defences here, if the enemy attack we'll be sitting ducks."
+    example: "We have no way of defending ourselves here, if the enemy attack we'll be sitting ducks."
   },
   9: {
     phrase: "Until the cows come home",
     meaning: "Something that won't happen or finish for a long time",
-    example: "This is taking forever, we'll be here until the cows come home."
+    example: "This is taking too long, we'll be here until the cows come home."
   },
   10: {
     phrase: "Straight from the horse's mouth",
@@ -67,12 +67,22 @@ const phrases = {
   11: {
     phrase: "Have bigger fish to fry",
     meaning: "To have more important things to do.",
-    example: "Don't worry about the replying yet, you have bigger fish to fry."
+    example: "Don't worry about that thing yet, we have bigger fish to fry."
   },
   12: {
     phrase: "Let the cat out of the bag",
     meaning: "To reveal a secret",
-    example: "It was supposed to be a secret but someone let the cat out of the bag."
+    example: "It was supposed to be a confidential but someone let the cat out of the bag."
+  },
+  13: {
+    phrase: "Kill two birds with one stone",
+    meaning: "To achieve two things with a single action",
+    example: "Our energy policy will kiil two birds with one stone by reducing emissions and saving consumers money."
+  },
+  14: {
+    phrase: "Flogging a dead horse",
+    meaning: "To keep talking about a subject that has already been discussed or decided.",
+    example: "Why do you keep bringing that up? You are flogging a dead horse at this point."
   }
 };
 
